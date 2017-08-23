@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl implements UserService {
-	
+	/**
+	 * 注入Maopper
+	 */
 	@Resource
 	private UserMapper userMapper;
 	
